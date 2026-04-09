@@ -95,7 +95,7 @@ Low variance across folds — the model isn't just getting lucky on one split.
 
 ### Threshold Analysis
 ![Threshold Optimization - XGBoost](plots/threshold_xgb.PNG)
-![Cost vs Threshold](plots/cost_threshold.png)
+![Cost vs Threshold](plots/cost_threshold.PNG)
 
 ### Feature Importance
 ![Feature Importance - XGBoost](plots/feature_importance.PNG)
