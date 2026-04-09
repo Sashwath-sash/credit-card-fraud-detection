@@ -79,7 +79,7 @@ Low variance across folds — the model isn't just getting lucky on one split.
 ## Visualizations
 
 ### Class Distribution
-![Class Distribution](plots/class_distribution.png)
+![Class Distribution](plots/class_distribution.PNG)
 
 ### Feature Correlation Heatmap
 ![Correlation Heatmap](plots/correlation_heatmap.png)
