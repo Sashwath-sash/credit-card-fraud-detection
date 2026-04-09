@@ -82,27 +82,23 @@ Low variance across folds — the model isn't just getting lucky on one split.
 ![Class Distribution](plots/class_distribution.PNG)
 
 ### Feature Correlation Heatmap
-![Correlation Heatmap](plots/correlation_heatmap.png)
+![Correlation Heatmap](plots/correlation_heatmap.PNG)
 
 ### Confusion Matrices
-![Confusion Matrix - Logistic Regression](plots/cm_lr.png)
-![Confusion Matrix - Random Forest](plots/cm_rf.png)
-![Confusion Matrix - XGBoost](plots/cm_xgb.png)
+![Confusion Matrix - Logistic Regression](plots/cm_lr.PNG)
+![Confusion Matrix - Random Forest](plots/cm_rf.PNG)
+![Confusion Matrix - XGBoost](plots/cm_xgb.PNG)
 
 ### Model Comparison
-![ROC Curve Comparison](plots/roc_comparison.png)
-![Precision-Recall Curve Comparison](plots/pr_comparison.png)
+![ROC Curve Comparison](plots/roc_comparison.PNG)
+![Precision-Recall Curve Comparison](plots/pr_comparison.PNG)
 
 ### Threshold Analysis
-![Threshold Optimization - XGBoost](plots/threshold_xgb.png)
+![Threshold Optimization - XGBoost](plots/threshold_xgb.PNG)
 ![Cost vs Threshold](plots/cost_threshold.png)
 
 ### Feature Importance
-![Feature Importance - XGBoost](plots/feature_importance.png)
-
-> To add your actual plots: export them from the notebook using `plt.savefig('plots/filename.png')` and create a `plots/` folder in the repo.
-
----
+![Feature Importance - XGBoost](plots/feature_importance.PNG)
 
 ## Tech Stack
 
@@ -113,14 +109,14 @@ Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
 ## Project Structure
 
 ```
-fraud_detection.ipynb
+fraud_detection
 README.md
 plots/
 ```
 
 ---
 
-## What Could Be Better
+## What Could Be Better/Future additions
 
 - SMOTE or undersampling instead of just reweighting
 - SHAP values for explainability (V14 dominates feature importance but it's a PCA component — hard to interpret without more context)
